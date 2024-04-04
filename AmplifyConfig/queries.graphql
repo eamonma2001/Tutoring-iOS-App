@@ -1,0 +1,625 @@
+# this is an auto generated file. This will be overwritten
+
+query GetUser($id: ID!) {
+  getUser(id: $id) {
+    id
+    name
+    primary_email
+    avatar_url
+    courses {
+      nextToken
+      startedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListUsers(
+  $filter: ModelUserFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listUsers(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query SyncUsers(
+  $filter: ModelUserFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncUsers(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query GetCourse($id: ID!) {
+  getCourse(id: $id) {
+    id
+    name
+    userId
+    user {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListCourses(
+  $filter: ModelCourseFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listCourses(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      userId
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query SyncCourses(
+  $filter: ModelCourseFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncCourses(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      name
+      userId
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query GetReminderEvent($id: ID!) {
+  getReminderEvent(id: $id) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListReminderEvents(
+  $filter: ModelReminderEventFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listReminderEvents(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      title
+      end_at
+      context_name
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query SyncReminderEvents(
+  $filter: ModelReminderEventFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncReminderEvents(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      title
+      end_at
+      context_name
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query GetCalendarEvent($id: ID!) {
+  getCalendarEvent(id: $id) {
+    id
+    title
+    start_at
+    end_at
+    location_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListCalendarEvents(
+  $filter: ModelCalendarEventFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listCalendarEvents(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      title
+      start_at
+      end_at
+      location_name
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query SyncCalendarEvents(
+  $filter: ModelCalendarEventFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncCalendarEvents(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      title
+      start_at
+      end_at
+      location_name
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query GetAssignmentEvent($id: ID!) {
+  getAssignmentEvent(id: $id) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListAssignmentEvents(
+  $filter: ModelAssignmentEventFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listAssignmentEvents(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      title
+      end_at
+      context_name
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query SyncAssignmentEvents(
+  $filter: ModelAssignmentEventFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncAssignmentEvents(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      title
+      end_at
+      context_name
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query GetTask($id: ID!) {
+  getTask(id: $id) {
+    id
+    name
+    description
+    isDone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListTasks(
+  $filter: ModelTaskFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listTasks(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      description
+      isDone
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query SyncTasks(
+  $filter: ModelTaskFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncTasks(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      name
+      description
+      isDone
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query GetTimeSlot($id: ID!) {
+  getTimeSlot(id: $id) {
+    id
+    start
+    end
+    userId
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+query ListTimeSlots(
+  $filter: ModelTimeSlotFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listTimeSlots(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      start
+      end
+      userId
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query SyncTimeSlots(
+  $filter: ModelTimeSlotFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncTimeSlots(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      start
+      end
+      userId
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query GetMeetingRequest($id: ID!) {
+  getMeetingRequest(id: $id) {
+    id
+    student {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    ta {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    meetingRequestStudentId
+    meetingRequestTaId
+    __typename
+  }
+}
+
+query ListMeetingRequests(
+  $filter: ModelMeetingRequestFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listMeetingRequests(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      date
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      meetingRequestStudentId
+      meetingRequestTaId
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query SyncMeetingRequests(
+  $filter: ModelMeetingRequestFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncMeetingRequests(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      date
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      meetingRequestStudentId
+      meetingRequestTaId
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query CoursesByUserId(
+  $userId: ID!
+  $sortDirection: ModelSortDirection
+  $filter: ModelCourseFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  coursesByUserId(
+    userId: $userId
+    sortDirection: $sortDirection
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+  ) {
+    items {
+      id
+      name
+      userId
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}

@@ -1,0 +1,67 @@
+# This "input" configures a global authorization rule to enable public access to
+# all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
+
+type User @model {
+  id: ID!
+  name: String!
+  primary_email: String!
+  avatar_url: String
+  courses: [Course] @hasMany(indexName: "byUser", fields: ["id"])
+}
+
+type Course @model {
+  id: ID!
+  name: String!
+  userId: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userId"])
+  # Add other fields as needed
+}
+
+
+type ReminderEvent @model {
+  id: ID!
+  title: String!
+  end_at: String!
+  context_name: String
+  # Add other fields as needed
+}
+
+type CalendarEvent @model {
+  id: ID!
+  title: String!
+  start_at: String!
+  end_at: String!
+  location_name: String
+  # Add other fields as needed
+}
+
+type AssignmentEvent @model {
+  id: ID!
+  title: String!
+  end_at: String!
+  context_name: String
+  # Add other fields as needed
+}
+
+type Task @model {
+  id: ID!
+  name: String!
+  description: String
+  isDone: Boolean
+}
+
+type TimeSlot @model {
+  id: ID!
+  start: AWSDateTime!
+  end: AWSDateTime!
+  userId: ID! # Assuming this is linked to a User
+}
+
+type MeetingRequest @model {
+  id: ID!
+  student: User! @hasOne
+  ta: User! @hasOne
+  date: AWSDateTime!
+}
+

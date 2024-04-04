@@ -1,0 +1,556 @@
+# this is an auto generated file. This will be overwritten
+
+mutation CreateUser(
+  $input: CreateUserInput!
+  $condition: ModelUserConditionInput
+) {
+  createUser(input: $input, condition: $condition) {
+    id
+    name
+    primary_email
+    avatar_url
+    courses {
+      nextToken
+      startedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateUser(
+  $input: UpdateUserInput!
+  $condition: ModelUserConditionInput
+) {
+  updateUser(input: $input, condition: $condition) {
+    id
+    name
+    primary_email
+    avatar_url
+    courses {
+      nextToken
+      startedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteUser(
+  $input: DeleteUserInput!
+  $condition: ModelUserConditionInput
+) {
+  deleteUser(input: $input, condition: $condition) {
+    id
+    name
+    primary_email
+    avatar_url
+    courses {
+      nextToken
+      startedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateCourse(
+  $input: CreateCourseInput!
+  $condition: ModelCourseConditionInput
+) {
+  createCourse(input: $input, condition: $condition) {
+    id
+    name
+    userId
+    user {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateCourse(
+  $input: UpdateCourseInput!
+  $condition: ModelCourseConditionInput
+) {
+  updateCourse(input: $input, condition: $condition) {
+    id
+    name
+    userId
+    user {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteCourse(
+  $input: DeleteCourseInput!
+  $condition: ModelCourseConditionInput
+) {
+  deleteCourse(input: $input, condition: $condition) {
+    id
+    name
+    userId
+    user {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateReminderEvent(
+  $input: CreateReminderEventInput!
+  $condition: ModelReminderEventConditionInput
+) {
+  createReminderEvent(input: $input, condition: $condition) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateReminderEvent(
+  $input: UpdateReminderEventInput!
+  $condition: ModelReminderEventConditionInput
+) {
+  updateReminderEvent(input: $input, condition: $condition) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteReminderEvent(
+  $input: DeleteReminderEventInput!
+  $condition: ModelReminderEventConditionInput
+) {
+  deleteReminderEvent(input: $input, condition: $condition) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateCalendarEvent(
+  $input: CreateCalendarEventInput!
+  $condition: ModelCalendarEventConditionInput
+) {
+  createCalendarEvent(input: $input, condition: $condition) {
+    id
+    title
+    start_at
+    end_at
+    location_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateCalendarEvent(
+  $input: UpdateCalendarEventInput!
+  $condition: ModelCalendarEventConditionInput
+) {
+  updateCalendarEvent(input: $input, condition: $condition) {
+    id
+    title
+    start_at
+    end_at
+    location_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteCalendarEvent(
+  $input: DeleteCalendarEventInput!
+  $condition: ModelCalendarEventConditionInput
+) {
+  deleteCalendarEvent(input: $input, condition: $condition) {
+    id
+    title
+    start_at
+    end_at
+    location_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateAssignmentEvent(
+  $input: CreateAssignmentEventInput!
+  $condition: ModelAssignmentEventConditionInput
+) {
+  createAssignmentEvent(input: $input, condition: $condition) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateAssignmentEvent(
+  $input: UpdateAssignmentEventInput!
+  $condition: ModelAssignmentEventConditionInput
+) {
+  updateAssignmentEvent(input: $input, condition: $condition) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteAssignmentEvent(
+  $input: DeleteAssignmentEventInput!
+  $condition: ModelAssignmentEventConditionInput
+) {
+  deleteAssignmentEvent(input: $input, condition: $condition) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateTask(
+  $input: CreateTaskInput!
+  $condition: ModelTaskConditionInput
+) {
+  createTask(input: $input, condition: $condition) {
+    id
+    name
+    description
+    isDone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateTask(
+  $input: UpdateTaskInput!
+  $condition: ModelTaskConditionInput
+) {
+  updateTask(input: $input, condition: $condition) {
+    id
+    name
+    description
+    isDone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteTask(
+  $input: DeleteTaskInput!
+  $condition: ModelTaskConditionInput
+) {
+  deleteTask(input: $input, condition: $condition) {
+    id
+    name
+    description
+    isDone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateTimeSlot(
+  $input: CreateTimeSlotInput!
+  $condition: ModelTimeSlotConditionInput
+) {
+  createTimeSlot(input: $input, condition: $condition) {
+    id
+    start
+    end
+    userId
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation UpdateTimeSlot(
+  $input: UpdateTimeSlotInput!
+  $condition: ModelTimeSlotConditionInput
+) {
+  updateTimeSlot(input: $input, condition: $condition) {
+    id
+    start
+    end
+    userId
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation DeleteTimeSlot(
+  $input: DeleteTimeSlotInput!
+  $condition: ModelTimeSlotConditionInput
+) {
+  deleteTimeSlot(input: $input, condition: $condition) {
+    id
+    start
+    end
+    userId
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+mutation CreateMeetingRequest(
+  $input: CreateMeetingRequestInput!
+  $condition: ModelMeetingRequestConditionInput
+) {
+  createMeetingRequest(input: $input, condition: $condition) {
+    id
+    student {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    ta {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    meetingRequestStudentId
+    meetingRequestTaId
+    __typename
+  }
+}
+
+mutation UpdateMeetingRequest(
+  $input: UpdateMeetingRequestInput!
+  $condition: ModelMeetingRequestConditionInput
+) {
+  updateMeetingRequest(input: $input, condition: $condition) {
+    id
+    student {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    ta {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    meetingRequestStudentId
+    meetingRequestTaId
+    __typename
+  }
+}
+
+mutation DeleteMeetingRequest(
+  $input: DeleteMeetingRequestInput!
+  $condition: ModelMeetingRequestConditionInput
+) {
+  deleteMeetingRequest(input: $input, condition: $condition) {
+    id
+    student {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    ta {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    meetingRequestStudentId
+    meetingRequestTaId
+    __typename
+  }
+}

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "31C71266-5EA4-48CD-A30C-FB35D6AB8F8A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C855B775-0926-4901-BB0C-45DCADD737CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CCLearn/Model/DataStructures.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "User"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "C855B775-0926-4901-BB0C-45DCADD737CB - d75e3da81e308f58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of CCLearn.User.init(id: Swift.Int, name: Swift.String, primary_email: Swift.String, avatar_url: Swift.String) -&gt; CCLearn.User"
+                  moduleName = "CCLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonnnn/cse217a/ECE564/chathamcounty/CCLearn/Model/DataStructures.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "C855B775-0926-4901-BB0C-45DCADD737CB - 6122251642f3f15f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 1 of CCLearn.User.init(id: Swift.Int, name: Swift.String, primary_email: Swift.String, avatar_url: Swift.String) -&gt; CCLearn.User"
+                  moduleName = "CCLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonnnn/cse217a/ECE564/chathamcounty/CCLearn/Model/DataStructures.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "C855B775-0926-4901-BB0C-45DCADD737CB - 8c86d29cb6ad235e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 2 of CCLearn.User.init(id: Swift.Int, name: Swift.String, primary_email: Swift.String, avatar_url: Swift.String) -&gt; CCLearn.User"
+                  moduleName = "CCLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonnnn/cse217a/ECE564/chathamcounty/CCLearn/Model/DataStructures.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "C855B775-0926-4901-BB0C-45DCADD737CB - d66afa1a9b68955d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 3 of CCLearn.User.init(id: Swift.Int, name: Swift.String, primary_email: Swift.String, avatar_url: Swift.String) -&gt; CCLearn.User"
+                  moduleName = "CCLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonnnn/cse217a/ECE564/chathamcounty/CCLearn/Model/DataStructures.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "C855B775-0926-4901-BB0C-45DCADD737CB - 2578d3e5453d9dfa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CCLearn.User.init(id: Swift.Int, name: Swift.String, primary_email: Swift.String, avatar_url: Swift.String) -&gt; CCLearn.User"
+                  moduleName = "CCLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonnnn/cse217a/ECE564/chathamcounty/CCLearn/Model/DataStructures.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44F40661-EEAF-4700-84DD-A925023A6265"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CCLearn/Views/Profile/ProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE62F3CD-5EAA-4DE9-8D75-24B6101D0773"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CCLearn/Model/DataModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "updateUser(name:primary_email:avatar_url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B64EF43-1FF8-4332-B58D-46B04D3AAE8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CCLearn/Model/DataModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "updateUser(name:primary_email:avatar_url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B64EF43-1FF8-4332-B58D-46B04D3AAE8B - f58cc92b5442553b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CCLearn.DataModel.updateUser(name: Swift.String, primary_email: Swift.String, avatar_url: Swift.String) -&gt; ()"
+                  moduleName = "CCLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonnnn/cse217a/ECE564/chathamcounty/CCLearn/Model/DataModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "732">
+               </Location>
+               <Location
+                  uuid = "1B64EF43-1FF8-4332-B58D-46B04D3AAE8B - f58cc92b5442553b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CCLearn.DataModel.updateUser(name: Swift.String, primary_email: Swift.String, avatar_url: Swift.String) -&gt; ()"
+                  moduleName = "CCLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonnnn/cse217a/ECE564/chathamcounty/CCLearn/Model/DataModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "760">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

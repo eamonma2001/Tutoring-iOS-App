@@ -1,0 +1,508 @@
+# this is an auto generated file. This will be overwritten
+
+subscription OnCreateUser($filter: ModelSubscriptionUserFilterInput) {
+  onCreateUser(filter: $filter) {
+    id
+    name
+    primary_email
+    avatar_url
+    courses {
+      nextToken
+      startedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateUser($filter: ModelSubscriptionUserFilterInput) {
+  onUpdateUser(filter: $filter) {
+    id
+    name
+    primary_email
+    avatar_url
+    courses {
+      nextToken
+      startedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteUser($filter: ModelSubscriptionUserFilterInput) {
+  onDeleteUser(filter: $filter) {
+    id
+    name
+    primary_email
+    avatar_url
+    courses {
+      nextToken
+      startedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateCourse($filter: ModelSubscriptionCourseFilterInput) {
+  onCreateCourse(filter: $filter) {
+    id
+    name
+    userId
+    user {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateCourse($filter: ModelSubscriptionCourseFilterInput) {
+  onUpdateCourse(filter: $filter) {
+    id
+    name
+    userId
+    user {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteCourse($filter: ModelSubscriptionCourseFilterInput) {
+  onDeleteCourse(filter: $filter) {
+    id
+    name
+    userId
+    user {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateReminderEvent(
+  $filter: ModelSubscriptionReminderEventFilterInput
+) {
+  onCreateReminderEvent(filter: $filter) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateReminderEvent(
+  $filter: ModelSubscriptionReminderEventFilterInput
+) {
+  onUpdateReminderEvent(filter: $filter) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteReminderEvent(
+  $filter: ModelSubscriptionReminderEventFilterInput
+) {
+  onDeleteReminderEvent(filter: $filter) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateCalendarEvent(
+  $filter: ModelSubscriptionCalendarEventFilterInput
+) {
+  onCreateCalendarEvent(filter: $filter) {
+    id
+    title
+    start_at
+    end_at
+    location_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateCalendarEvent(
+  $filter: ModelSubscriptionCalendarEventFilterInput
+) {
+  onUpdateCalendarEvent(filter: $filter) {
+    id
+    title
+    start_at
+    end_at
+    location_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteCalendarEvent(
+  $filter: ModelSubscriptionCalendarEventFilterInput
+) {
+  onDeleteCalendarEvent(filter: $filter) {
+    id
+    title
+    start_at
+    end_at
+    location_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateAssignmentEvent(
+  $filter: ModelSubscriptionAssignmentEventFilterInput
+) {
+  onCreateAssignmentEvent(filter: $filter) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateAssignmentEvent(
+  $filter: ModelSubscriptionAssignmentEventFilterInput
+) {
+  onUpdateAssignmentEvent(filter: $filter) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteAssignmentEvent(
+  $filter: ModelSubscriptionAssignmentEventFilterInput
+) {
+  onDeleteAssignmentEvent(filter: $filter) {
+    id
+    title
+    end_at
+    context_name
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateTask($filter: ModelSubscriptionTaskFilterInput) {
+  onCreateTask(filter: $filter) {
+    id
+    name
+    description
+    isDone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateTask($filter: ModelSubscriptionTaskFilterInput) {
+  onUpdateTask(filter: $filter) {
+    id
+    name
+    description
+    isDone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteTask($filter: ModelSubscriptionTaskFilterInput) {
+  onDeleteTask(filter: $filter) {
+    id
+    name
+    description
+    isDone
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateTimeSlot($filter: ModelSubscriptionTimeSlotFilterInput) {
+  onCreateTimeSlot(filter: $filter) {
+    id
+    start
+    end
+    userId
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateTimeSlot($filter: ModelSubscriptionTimeSlotFilterInput) {
+  onUpdateTimeSlot(filter: $filter) {
+    id
+    start
+    end
+    userId
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteTimeSlot($filter: ModelSubscriptionTimeSlotFilterInput) {
+  onDeleteTimeSlot(filter: $filter) {
+    id
+    start
+    end
+    userId
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateMeetingRequest(
+  $filter: ModelSubscriptionMeetingRequestFilterInput
+) {
+  onCreateMeetingRequest(filter: $filter) {
+    id
+    student {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    ta {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    meetingRequestStudentId
+    meetingRequestTaId
+    __typename
+  }
+}
+
+subscription OnUpdateMeetingRequest(
+  $filter: ModelSubscriptionMeetingRequestFilterInput
+) {
+  onUpdateMeetingRequest(filter: $filter) {
+    id
+    student {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    ta {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    meetingRequestStudentId
+    meetingRequestTaId
+    __typename
+  }
+}
+
+subscription OnDeleteMeetingRequest(
+  $filter: ModelSubscriptionMeetingRequestFilterInput
+) {
+  onDeleteMeetingRequest(filter: $filter) {
+    id
+    student {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    ta {
+      id
+      name
+      primary_email
+      avatar_url
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    date
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    meetingRequestStudentId
+    meetingRequestTaId
+    __typename
+  }
+}
